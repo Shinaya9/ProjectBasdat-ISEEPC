@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    background-image: url(gambar/bg\ homepage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    overflow-x: hidden;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.sidebar {
+    position: fixed;
+    left: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: #427D9D;
+    transition: all .5s;
+    margin-top: -348px;
+}
+
+
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #427D9D;
+    user-select: none;
+
+}
+
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255.1);
+    border-bottom: 1px solid #427D9D;
+    transition:.4s;
+    text-align: left;
+}
+
+ul li:hover{
+    transition:.4s;
+    padding-left: 20px;
+}
+
+#check{
+    display: none;
+}
+
+label #btn{
+    position: absolute;
+    cursor: pointer;
+    background: #ffffff;
+    border-radius: 3px;
+    left: 40px;
+    top: 25px;
+    font-size: 40px;
+    color: white;
+    padding: 6px 12px;
+}
+
+
+label #cancel{
+    position: absolute;
+    cursor: pointer;
+    background: #000000;
+    border-radius: 3px;
+}
+
+
+label #cancel{
+    z-index: 1111;
+    left: -195px;
+    top: 17px;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 4px 9px;
+    transition: all .5s ease;
+    
+}
+
+#check:checked ~ .sidebar{
+    left: 0;
+}
+
+#check:checked ~ label #btn{
+    left: 300px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check:checked ~ label #cancel{
+    left: 195px;
+}
+
+#check:checked ~ section{
+    margin-left: 300px;
+    transition: .5s;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.isi{
+    margin-top: 100px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+.explore{
+    display: inline-flex;
+    width: 500px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.explore a{
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    background-color: #FF7F00;
+    margin-left: 30px;
+    border-radius: 15px;
+    color: #000000;
+}
+
+.kalimat{
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+.isi img{
+    width: 250px;
+    height: 250px;
+}
+
+.sidebar img{
+    width: 30px;
+    height: 30px;
+}
+header p{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #000000;
+}
+header img{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}

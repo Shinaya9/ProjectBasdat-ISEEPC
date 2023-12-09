@@ -1,0 +1,267 @@
+body{
+    margin: 0;
+
+}
+
+
+.pencarian{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+img{
+    margin-left: 100px;
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: right;
+    justify-content: right;
+    line-height: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.sidebar{
+    position: fixed;
+    left: -300px;
+    width: 300px;
+    height: 120%;
+    background-color: #427D9D;
+    transition: all .5s;
+    margin-top: -70px;
+}
+
+.sidebar header{
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 70px;
+    margin-top: 90px;
+    background: #427D9D;
+    user-select: none;
+
+}
+
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255.1);
+    border-bottom: 1px solid #427D9D;
+    transition:.4s;
+    text-align: left;
+}
+
+ul li:hover{
+    padding-left: 20px;
+    transition:.4s;
+}
+
+#check{
+    display: none;
+}
+
+label #btn{
+    position: absolute;
+    cursor: pointer;
+    background: #ffffff;
+    border-radius: 3px;
+    left: 40px;
+    top: 25px;
+    font-size: 40px;
+    color: white;
+    padding: 6px 12px;
+}
+
+
+label #cancel{
+    position: absolute;
+    cursor: pointer;
+    background: #000000;
+    border-radius: 3px;
+}
+
+
+label #cancel{
+    z-index: 1111;
+    left: -195px;
+    top: 17px;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 4px 9px;
+    transition: all .5s ease;
+    
+}
+
+#check:checked ~ .sidebar{
+    left: 0;
+}
+
+#check:checked ~ label #btn{
+    left: 300px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check:checked ~ label #cancel{
+    left: 195px;
+}
+
+#check:checked ~ section{
+    margin-left: 300px;
+    transition: .5s;
+}
+header p{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #000000;
+}
+header img{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.headerisi{
+    display: inline-flex;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 10px;
+    margin-top: 50px;
+    height: 25px;
+}
+
+.headerisi a {
+    letter-spacing: 3px;
+    width: 350px;
+    height: 20px;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.alamat{
+    border-bottom: 2px solid black;
+}
+
+
+.barang{
+    display:inline-flex;
+    width: 235px;
+    height: 235px;
+    background-color: #D9D9D9;
+    margin-top: 10px;
+    margin-left: 210px;
+    border-radius: 10px;
+}
+
+.edit{
+    display: inline-block;
+    width: 845px;
+    height: 150px;
+    background-color: #D9D9D9;
+    margin-top: 30px;
+    margin-left: 220px;
+    border-radius: 20px;
+    border: 2px solid black;
+    align-items: center;
+    background-color: #FFF;
+}
+.edit h2{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 110px;
+}
+
+a{
+    margin-top:-5px;
+    color: #000000;
+    text-align: center;
+}
+
+.semua{
+    display: inline-block;
+    width: 100%;
+    height: 100%; 
+    margin-bottom: 20px; 
+}
+.tambah{
+    display: inline-flex;
+    width: 130px;
+    height: 50px;
+    background-color: #FF7F00;
+    border-radius: 20px;
+    float: left;
+    margin-left: 940px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.tambah:hover{
+    background-color: rgb(170, 96, 11);
+    width: 140px;
+    height: 55px;
+    transition: .3s;
+}
+.isi{
+    width: 1200px;
+    height: 100%;
+}
+.kotakaksi{
+    display: inline-flex;
+}
+.hapus{
+    width: 130px;
+    height: 50px;
+    background-color: #FF7F00;
+    border-radius: 20px;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hapus a{
+    padding:20px;
+    color: black;
+    float: right;
+    width: 90px;
+    height: 10px;
+    font-size: large;
+    text-align: center;
+    
+}
+/* .a button{
+    display: inline-flex;
+    width: 130px;
+    height: 50px;
+    background-color: #FF7F00;
+    border-radius: 20px;
+    float: left;
+    margin-left: 940px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} */
+.hapus:hover{
+    background-color: rgb(170, 96, 11);
+    width: 140px;
+    height: 55px;
+    transition: .3s;
+}

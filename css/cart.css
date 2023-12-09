@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+
+}
+
+
+.pencarian{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+img{
+    margin-left: 100px;
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: right;
+    justify-content: right;
+    line-height: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.sidebar{
+    position: fixed;
+    left: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: #E6E6E6;
+    transition: all .5s;
+    margin-top: -20px;
+}
+
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #E6E6E6;
+    user-select: none;
+
+}
+
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255.1);
+    border-bottom: 1px solid #E6E6E6;
+    transition:.4s;
+}
+
+ul li:hover{
+    padding-left: 20px;
+    transition:.4s;
+}
+
+#check{
+    display: none;
+}
+
+label #btn{
+    position: absolute;
+    cursor: pointer;
+    background: #ffffff;
+    border-radius: 3px;
+    left: 40px;
+    top: 25px;
+    font-size: 40px;
+    color: white;
+    padding: 6px 12px;
+}
+
+
+label #cancel{
+    position: absolute;
+    cursor: pointer;
+    background: #000000;
+    border-radius: 3px;
+}
+
+
+label #cancel{
+    z-index: 1111;
+    left: -195px;
+    top: 17px;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 4px 9px;
+    transition: all .5s ease;
+    
+}
+
+#check:checked ~ .sidebar{
+    left: 0;
+}
+
+#check:checked ~ label #btn{
+    left: 300px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#check:checked ~ label #cancel{
+    left: 195px;
+}
+
+#check:checked ~ section{
+    margin-left: 300px;
+    transition: .5s;
+}
+header p{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #000000;
+}
+header img{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.logo img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    margin-left: 850px;
+}
+
+.logo{
+    display: inline-flex;
+    text-align: right;
+    justify-content: right;
+    justify-items: right;
+    font-size: 20px;
+}
+.logo p{
+    margin-top: 10px;
+}
+
+.atas{
+    width: 1050px;
+    display: inline-flex;
+    margin-left: 150px;
+    margin-top: 35px;
+    font-size: 25px;
+    border-bottom: 2px solid rgb(139, 139, 139);
+}
+.tengah{
+    width:400px;
+    height: 200px;
+    display: inline-flex;
+    background-color: aqua;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.teks{
+    display: inline-block;
+}
+.kotak{
+    width: 1250px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+
+}
+.foto img{
+    width: 100px;
+    height: 100px;
+    margin-left: 0px;
+}
+.teks{
+
+}
