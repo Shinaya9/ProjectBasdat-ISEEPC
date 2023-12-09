@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    background-image: url(gambar/bg\ homepage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.isi{
+    margin-top: 100px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+.isi2{
+    display: inline-flex;
+    height: 100px;
+    text-align: center;
+}
+.isi2 a{
+    color: black;
+}
+.cek{
+    background-color: #FF7F00;
+    border-radius: 20px;
+    width: 150px;
+    height: 70px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+.cek:hover{
+    width: 155px;
+    height: 75px;
+    background-color: rgb(200, 107, 0);
+    transition: .3s;
+}
+
+.kalimat{
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+img{
+    width: 250px;
+    height: 250px;
+}
