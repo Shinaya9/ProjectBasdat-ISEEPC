@@ -14,7 +14,7 @@ I See PC  merupakan website jual beli laptop baru atau bekas beserta aksesorisny
 Beberapa teknologi tang digunakan dalam project ini, yaitu:
 * Frontend : HTML, CSS, JavaScript
 * Backend : PHP
-* Database :
+* Database : PHPMyAdmin
 
 #Anggota Kelompok
 | Nama               | NIM              |
