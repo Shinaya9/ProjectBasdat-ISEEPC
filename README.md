@@ -27,16 +27,16 @@ Beberapa teknologi tang digunakan dalam project ini, yaitu:
 <table>
   <tbody>
     <tr>
-      <td><img src="screenshots/screen"></td>
-      <td><img src="screenshots/Login Page.png"></td>
+      <td><img src="screenshots/Screenshot (1322).png"></td>
+      <td><img src="screenshots/Screenshot (1328).png"></td>
     </tr>
     <tr>
-      <td><img src="screenshots/Home Page.png"></td>
-      <td><img src="screenshots/Library (empty).png"></td>
+      <td><img src="screenshots/Screenshot (1330).png"></td>
+      <td><img src="screenshots/Screenshot (1332).png"></td>
     </tr>
     <tr>
-      <td><img src="screenshots/Review.png"></td>
-      <td><img src="screenshots/Library (filled).png"></td>
+      <td><img src="screenshots/Screenshot (1334).png"></td>
+      <td><img src="screenshots/Screenshot (1338).png"></td>
     </tr>
   </tbody>
 </table>
