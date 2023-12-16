@@ -24,3 +24,19 @@ Beberapa teknologi tang digunakan dalam project ini, yaitu:
 | Vergiawan Zhaki R. | G6401221101      |
 
 #Screnshots
+<table>
+  <tbody>
+    <tr>
+      <td><img src="screenshots/screen"></td>
+      <td><img src="screenshots/Login Page.png"></td>
+    </tr>
+    <tr>
+      <td><img src="screenshots/Home Page.png"></td>
+      <td><img src="screenshots/Library (empty).png"></td>
+    </tr>
+    <tr>
+      <td><img src="screenshots/Review.png"></td>
+      <td><img src="screenshots/Library (filled).png"></td>
+    </tr>
+  </tbody>
+</table>
