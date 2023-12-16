@@ -1,5 +1,5 @@
 # ProjectBasdat-ISEEPC
-folder data base i see pc untuk tugas project akhir semester 3. Dengan anggota 
+Folder data base i see pc untuk tugas project akhir semester 3. 
 
 # Daftar Isi
 * [Deskripsi](#Deskripsi)
