@@ -2,10 +2,10 @@
 folder data base i see pc untuk tugas project akhir semester 3. Dengan anggota 
 
 # Daftar Isi
-* Deskripsi
-* Stack
-* Anggota Kelompok
-* Screenshots
+* [Deskripsi](#Deskripsi)
+* [Stack](#Stack)
+* [Anggota Kelompok](#Anggota-Kelompok)
+* [Screenshots](#Screenshots)
 
 # Deskripsi
 I See PC  merupakan website jual beli laptop baru atau bekas beserta aksesorisnya. Proyek ini memberikan hasil akhir terbentuknya website yang dapat digunakan untuk menjual maupun membeli laptop beserta aksesorisnya yang dapat digunakan dimanapun dan kapanpun dengan keamanan yang terjamin.
